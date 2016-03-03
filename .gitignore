@@ -4,5 +4,10 @@ target
 *.iml
 log
 
-
-
+.gradle
+.mvn
+build
+*.ipr
+*.iws
+.idea_modules
+*.patch
