@@ -37,10 +37,7 @@ public class BaseEntity {
             return false;
         }
         BaseEntity that = (BaseEntity) o;
-        if (id == null || that.id == null) {
-            return false;
-        }
-        return id.equals(that.id);
+        return !(id == null || that.id == null) && id.equals(that.id);
     }
 
     @Override
